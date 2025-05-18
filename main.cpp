@@ -1,10 +1,9 @@
 ﻿import std;
 import greeter;
-// import fmtwrap;
+import fmtwrap;
 
 int main() {
-    // auto name = fmtwrap::format("{} {}", "Hans", "Wurst");
-    auto name = "Hans";
+    auto name = fmtwrap::format("{} {}", "Hans", "Wurst");
     std::println("{}!", Greeter::person(name));
     return 0;
 }

@@ -10,7 +10,8 @@
             "cacheVariables": {
                 "CMAKE_C_COMPILER": "cl.exe",
                 "CMAKE_CXX_COMPILER": "cl.exe",
-                "FMT_UNICODE": "OFF"
+                "FMT_UNICODE": "OFF",
+                "FMT_MODULE": "ON"
             },
             "condition": {
                 "type": "equals",
